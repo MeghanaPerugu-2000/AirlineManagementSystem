@@ -20,4 +20,8 @@ public interface BookingTicketService {
     List<BookingTicket> findByUser_UserId(int userId) throws BookingTicketNotFoundException;
     TransactionDetails createTransaction(Double amount);
 
+//adding this to practice with git
+int a = 1;
+int b = 2;
+
 }
