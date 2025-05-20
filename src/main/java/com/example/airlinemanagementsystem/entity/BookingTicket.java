@@ -48,6 +48,10 @@ public class BookingTicket {
     @JoinColumn(name = "user_id", nullable = false)
     private User user;
 
+	//creating variable for git practice
+	int num1 = 10;
+	staring name = "khasim"
+
     public BookingTicket() {
         super();
     }
