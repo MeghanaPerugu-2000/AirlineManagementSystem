@@ -44,7 +44,7 @@ public class Flight {
 
 //    @JsonManagedReference // to avoid infite loop while insertion
 //    @OneToMany(mappedBy = "flight", cascade = CascadeType.ALL, orphanRemoval = true)
-//    private List<BookingTicket> bookingTickets;
+    private List<BookingTicket> bookingTickets;
 
     public Flight() {
     }
